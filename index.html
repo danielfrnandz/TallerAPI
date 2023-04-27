@@ -5,56 +5,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous" defer></script>
+    <script src="main.js" type="module" defer></script>
     <link rel="stylesheet" href="style.css">
+
+
 
     <title>Countries</title>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="row banner text-center">
+
+        <div class="row banner text-center py-4">
             <h1>CountrySearch</h1>
         </div>
 
 
-        <div class="container">
 
+
+        <div class="container py-4">
             <div class="row">
                 <div class="col">
                     <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
                         aria-controls="offcanvasExample">
-                        Link with href
+                        Pais
                     </a>
-
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
-                        aria-labelledby="offcanvasExampleLabel">
-
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Pais</h5>
-                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-
-                        <div class="offcanvas-body">
-
-                            <div>
-                                Some text as placeholder. In real life you can have the elements you have chosen. Like,
-                                text, images, lists, etc.
-                            </div>
-
-
-                        </div>
-
-                        <!-- https://leafletjs.com/examples/quick-start/ -->
-                        <!-- https://restcountries.com/v3.1/all -->
-                    </div>
-
                 </div>
+
+                <div id="texto">
+               
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+    aria-labelledby="offcanvasExampleLabel">
+
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Pais</h5>
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            
+
+            <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like,
+                text, images, lists, etc.
             </div>
         </div>
     </div>
