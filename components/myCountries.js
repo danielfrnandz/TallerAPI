@@ -11,7 +11,7 @@ export default {
       ws.terminate();
     });    
   },
-
+  
   showComponentCountry() {
     let details = document.querySelector("#countryCard");
     details.addEventListener("click", (e) =>{

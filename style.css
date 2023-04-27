@@ -1,8 +1,12 @@
 .offcanvas{
-    width: 50vw;
+    width: 60vw;
+}
+
+.escudo{
+    width: 200px;
 }
 
 .banner{
-    background-color: blue;
+    background-color: rgb(55, 55, 95);
     color: white;
 }
