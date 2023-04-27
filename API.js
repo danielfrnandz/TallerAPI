@@ -16,5 +16,11 @@ export default {
         let data = await peticion.json();
         return data;
     }
+    ,
+    async getCountryByAbreviature(abr){
+        let peticion = await fetch(`https://restcountries.com/v3.1/alpha/${abr}`);
+        let data = await peticion.json();
+        return data;
+    }
 
 }
